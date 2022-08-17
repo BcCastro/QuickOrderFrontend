@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Productos</title>
+    <link rel="icon" href="img/faviconOrder.PNG">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+     <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid bg-dark text-dark ">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>            
+                <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                	<li><a href="#">Quick⏱rder</a></li>
+                	<li><a href="index.html">Inicio</a></li>		
+					<li><a href="productos.html">Productos</a></li>
+                    <li><a href="about.html">Quienes somos</a></li>
+					<li><a href="register.html">Registrarse</a></li>
+					<li><a href="login.html">Ingresar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+			<div class="card-group col-sm-4 col-md-4 col-lg-4 col-4" style="margin-left: 25px;">
+             <div class="card">
+				<h4 style="text-align:center;">Hamburguesa</h4>
+                <img style="height: 229px; width: 298px;"alt="Hamburguesa" src="img/Hamburguesas.jpg">
+                <div class="card-body">
+					<p><strong>Nombre producto</p>
+					<p><strong>Dimensiones</p>						
+					<p><strong>Detalle</strong></p>
+					<p><strong>Precio</p>	
+                </div>
+				<div class="text-center"><a onclick="addToCartOnclick();" href="#"  style="margin-bottom: 5px;" class="btn btn-primary">Agregar al Carrito</a></div>
+            </div>
+        </div>    
+
+        <div class="card-group col-sm-4 col-md-4 col-lg-4 col-4 ml-3 "style="margin-left:20px; border-radius: 15px">
+             <div class="card">
+				<h4 style="text-align: center;">Churrasco</h4>
+                <img style="border: 1px solid gray;height: 229px; width: 298px;" class="card-img-top" src="img/Churrasco.png" alt="Churrasco">
+                <div class="card-body">
+					<p><strong>Nombre producto</p>
+					<p><strong>Dimensiones</p>						
+					<p><strong>Detalle</strong></p>
+					<p><strong>Precio</p>	
+                </div>
+				<div class="text-center"><a onclick="addToCartOnclick();" href="#"  style="margin-bottom: 5px;" class="btn btn-primary">Agregar al Carrito</a></div>
+            </div>
+        </div>  
+
+        <div class="card-group col-sm-4 col-md-4 col-lg-4 col-4 ml-3"style="margin-left:20px; border-radius: 15px">
+             <div class="card">
+				<h4 style="text-align: center;">Pizza</h4>
+                <img style="border: 1px solid gray;height: 229px; width: 298px;"  src="img/pizza.jpg"alt="Pizza">
+                  <div class="card-body">
+					<p><strong>Nombre producto</p>
+					<p><strong>Dimensiones</p>						
+					<p><strong>Detalle</strong></p>
+					<p><strong>Precio</p>	
+                </div>
+				<div class="text-center"><a onclick="addToCartOnclick();" href="#"  style="margin-bottom: 5px;" class="btn btn-primary">Agregar al Carrito</a></div>
+            </div>
+        </div>		
+	</div>
+    <footer>
+        <div class="container-fluid">            
+                <div class="footer titles">
+                    <p><strong>Bienvenido</strong>
+                    <br>                     
+                    <a href="#">Ingresar Como Administrador</a> |
+                    <a href="#">Volver al inicio</a> 
+                    <br>DESARROLLO DE APLICACIONES Y SERVICIOS PARA LA NUBE <br> SENA 2022
+                    </p>             
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
